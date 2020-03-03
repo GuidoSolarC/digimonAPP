@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  //API DIGIMON
+  //Array completo de digimons
+  digimonListAPI: 'https://digimon-api.herokuapp.com/api/digimon',
+  //Digimon filtrado por nombre
+  digimonNameAPI: 'https://digimon-api.herokuapp.com/api/digimon/name',
+  //Digimon filtrado por nivel
+  digimonLevelAPI: 'https://digimon-api.herokuapp.com/api/digimon/level',
+  //Digimon filtrado por ID
+  digimonIDAPI: 'https://digimon-api.herokuapp.com/api/digimon/id'
 };
 
 /*
